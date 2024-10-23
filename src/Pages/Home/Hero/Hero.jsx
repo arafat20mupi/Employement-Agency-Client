@@ -31,7 +31,7 @@ const Hero = () => {
         {/* image */}
         <div className="w-full  p-6 md:p-10 lg:w-[50%]">
           <img
-            src="a.jpeg"
+            src="a6.png"
             alt="image"
             className="w-full rounded-lg"
           />

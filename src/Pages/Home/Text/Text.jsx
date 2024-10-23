@@ -18,7 +18,7 @@ const Text = () => {
                 </span> provides Employee Outsourcing Services within the UAE, making Charterhouse one of a handful of organisations offering this service with a government license issued by the Economic Development Department. Employee outsourcing can be provided independently or seamlessly integrated with our recruitment services. We strive to deliver flexible, reliable and tailored solutions to meet the unique business needs of both our existing and new clients.
             </p>
             <div className="flex justify-end ">
-                <Link to={'/service'} className="justify-end shadow-2xl hover:bg-pink-500 text-white text-xl btn bg-blue-500">
+                <Link to={'/jobs'} className="justify-end shadow-2xl hover:bg-pink-500 text-white text-xl btn bg-blue-500">
                     Veiw All
                     <GoArrowRight className="text-xl " />
                 </Link>

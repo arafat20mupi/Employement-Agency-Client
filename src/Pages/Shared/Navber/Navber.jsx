@@ -23,26 +23,44 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content  rounded-box z-50 bg-white mt-3 w-52 p-2 shadow">
                         <li><Link to={'/'}>Home</Link></li>
-                        <li><Link to={'/service'}>Service</Link></li>
+                        <li>
+                            <details>
+                                <summary><Link to={'/service'}>Service</Link></summary>
+                                <ul className="flex flex-col z-50 gap-1">
+                                    <Link className=' px-3 py-2 hover:bg-gray-100 ' to={'/employer'}><a>For Employer</a></Link>
+                                    <Link className=' px-3 py-2 hover:bg-gray-100 ' to={'/candidate'}><a>For Candidates</a></Link>
+                                </ul>
+                            </details>
+                        </li>
                         <li><Link to={'/team'}>Our Team</Link></li>
                         <li><Link to={'/jobs'}>Jobs</Link></li>
+                        <li><Link to={'/about'}>About</Link></li>
                     </ul>
                 </div>
                 <Link to={'/'} className="w-16 h-16">
-                {/* Euro-Bangla */}
-                <img src="logo.png" alt="" 
-                className='rounded-full '
-                />
+                    {/* Euro-Bangla */}
+                    <img src="logo.png" alt=""
+                        className='rounded-full '
+                    />
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal text-xl font-medium px-1">
                     <li><Link to={'/'}>Home</Link></li>
-                    <li><Link to={'/service'}>Service</Link></li>
+                    <li>
+                        <details>
+                            <summary><Link to={'/service'}>Service</Link></summary>
+                            <ul className="flex flex-col z-50 gap-1">
+                                <Link className=' px-3 py-2 hover:bg-gray-100 ' to={'/employer'}><a>For Employer</a></Link>
+                                <Link className=' px-3 py-2 hover:bg-gray-100 ' to={'/candidate'}><a>For Candidates</a></Link>
+                            </ul>
+                        </details>
+                    </li>
                     <li><Link to={'/team'}>Our Team</Link></li>
                     <li><Link to={'/jobs'}>Jobs</Link></li>
+                    <li><Link to={'/about'}>About</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
