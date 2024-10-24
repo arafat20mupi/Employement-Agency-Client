@@ -21,7 +21,7 @@ const ServiceCard = () => {
                         <p className="mb-5">
                             Discover more job opportunities by joining our talent pool.
                         </p>
-                        <Link className="px-3 py-2 border-white border rounded-xl"> Tell Me More</Link>
+                        <Link to={'/candidate'} className="px-3 hover:bg-blue-300 hover:text-black text-lg py-2 border-white border rounded-xl"> Tell Me More</Link>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@ const ServiceCard = () => {
                         <p className="mb-5">
                             Find qualified foreign professionals to fill your employment gaps.
                         </p>
-                        <Link className="px-3 py-2 border-white border rounded-xl">Our Services</Link>
+                        <Link to={'/employer'} className="px-3 py-2 hover:bg-blue-300 hover:text-black text-lg border-white border rounded-xl">Our Services</Link>
                     </div>
                 </div>
             </div>

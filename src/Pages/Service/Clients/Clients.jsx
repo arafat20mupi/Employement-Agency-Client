@@ -14,9 +14,9 @@ const Clients = () => {
                     </div>
                     <div className="w-full md:w-1/2 space-y-3">
                         <h1 className="text-5xl font-bold underline  text-blue-500">Employers</h1>
-                        <h1 className="text-xl font-bold">Find jobs in Europe wherever, whenever</h1>
+                        <h1 className="text-xl font-bold">Looking for recruiters who speak your language?</h1>
                         <p className="py-6">
-                            <span className="font-bold">Euro-Bangla Employment Company</span> specializes in helping qualified and experienced candidates find their dream jobs with a full range of vacant positions available throughout Singapore.  We are well aware that job searching processes can often be stressful and frustrating. This is why Nala offers its services to help you better ease through it.
+                            <span className="font-bold">Euro-Bangla Employment Company</span>we understand the energy and expenses that accompany hiring suitable candidates to match the needs of your company. You may even find yourself facing challenges where hiring processes take too long or hiring teams struggle to reach a consensus, resulting in your best candidates finding other opportunities. This is why we offer our services to help guide you through every step of the recruitment process in order to help ensure you make the best possible decision for your organization. 
                         </p>
                     </div>
                 </div>
