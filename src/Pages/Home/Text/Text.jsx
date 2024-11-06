@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 const Text = () => {
     return (
         <div className="text-start p-6 bg-pink-50 space-y-6">
-            <h1 className="text-3xl font-bold ">Find Jobs in Crotia, UAE , Europe & Middle East.</h1>
+            <h1 className="text-3xl font-bold ">Find Jobs in Croatia, UAE , Europe ,Middle East And Bangladesh.</h1>
             <p className="text-2xl font-bold">
-                Charterhouse represents the best and most sought-after job opportunities in <span className="text-blue-500">
+                Euro-Bangla represents the best and most sought-after job opportunities in <span className="text-blue-500">
                     Europe markets
                 </span> . Our coverage & expertise is designed to assist professionals transitioning their career in the region or as an entry point into the <span className="text-blue-500">
                     Europe Job markets

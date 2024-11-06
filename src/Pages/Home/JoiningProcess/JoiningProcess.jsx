@@ -55,7 +55,7 @@ const JoiningProcess = () => {
             <div className="text-center my-10">
                 <h1 className="text-4xl font-bold underline underline-offset-auto text-blue-500">THE RECRUITMENT PROCESS</h1>
                 <p className="mt-6 text-black text-xl">
-                    For our staffing agency in Crotia, we implement a well-defined and efficient recruitment process to match skilled candidates with the diverse needs of client companies. Here’s a comprehensive breakdown of the key steps in the recruitment process:
+                    For our staffing agency in Croatia, we implement a well-defined and efficient recruitment process to match skilled candidates with the diverse needs of client companies. Here’s a comprehensive breakdown of the key steps in the recruitment process:
                 </p>
             </div>
             {accordingData?.map((according, index) => (

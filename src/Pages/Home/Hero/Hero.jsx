@@ -2,6 +2,7 @@
 // react icons
 import { BsSearch } from "react-icons/bs";
 import { GoArrowRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -22,10 +23,10 @@ const Hero = () => {
             </button>
           </div>
 
-          <div className="flex items-center underline flex-wrap gap-[20px] mt-6">
+          <Link to={'/jobs'} className="flex items-center underline flex-wrap gap-[20px] mt-6">
             Browse All Available Jobs
             <GoArrowRight className="text-xl "/>
-          </div>
+          </Link>
         </div>
 
         {/* image */}

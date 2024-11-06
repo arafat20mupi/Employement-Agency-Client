@@ -71,7 +71,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <p className="my-2 md:w-1/2 text-black">
-              I consent to the processing of my personal data to CodeCrafotr
+              I consent to the processing of my personal data to Euro-Bangla
               Systems for Project purposes. For more information, please refer to
               our privacy policy.
             </p>

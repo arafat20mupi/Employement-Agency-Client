@@ -27,29 +27,6 @@ const Candidates = () => {
 
                     {/*  image  */}
                     <img
-                        src="Oil & Gas Recruitment Services.jpg"
-                        alt=""
-                        className="w-full h-full object-cover group-hover:scale-[1.1] transition-all duration-700" />
-
-                    {/*  text  */}
-                    <div
-                        className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
-                        <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Oil & Gas Recruitment Services</h1>
-                        <button
-                            className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
-                            Details
-                        </button>
-                    </div>
-
-                    {/*  bottom shadow  */}
-                    <div
-                        className="w-full opacity-0 z-[-1] group-hover:opacity-100 group-hover:z-10 transition-all duration-500 bg-gradient-to-b from-[rgb(0,0,0,0.001)] to-[rgb(0,0,0,0.5)] h-[100%] absolute bottom-0 left-0 right-0"></div>
-                </div>
-                <div
-                    className="w-full  h-[400px] relative overflow-hidden group cursor-pointer rounded-md">
-
-                    {/*  image  */}
-                    <img
                         src="steel recruitment services.jpg"
                         alt=""
                         className="w-full h-full object-cover group-hover:scale-[1.1] transition-all duration-700" />
@@ -80,31 +57,7 @@ const Candidates = () => {
                     {/*  text  */}
                     <div
                         className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
-                        <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Hotel & Catering Recruitment Consultancy Services</h1>
-                        <button
-                            className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
-                            Details
-                        </button>
-                    </div>
-
-                    {/*  bottom shadow  */}
-                    <div
-                        className="w-full opacity-0 z-[-1] group-hover:opacity-100 group-hover:z-10 transition-all duration-500 bg-gradient-to-b from-[rgb(0,0,0,0.001)] to-[rgb(0,0,0,0.5)] h-[100%] absolute bottom-0 left-0 right-0"></div>
-                </div>
-                <div
-                    className="w-full  h-[400px] relative overflow-hidden group cursor-pointer rounded-md">
-
-                    {/*  image  */}
-                    <img
-                        src="Retail & FMCG Recruitment Services.jpg"
-                        alt=""
-                        className="w-full h-full object-cover group-hover:scale-[1.1] transition-all duration-700" />
-
-                    {/*  text  */}
-                    <div
-                        className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
-                        <h className="text-[1.5rem] font-bold text-white text-center capitalize">Retail & FMCG Recruitment Services
-                        </h>
+                        <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Hotel & Resturent Recruitment Consultancy Services</h1>
                         <button
                             className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
                             Details
@@ -189,14 +142,14 @@ const Candidates = () => {
 
                     {/*  image  */}
                     <img
-                        src="EPC Recruitment Services.jpg"
+                        src="recruitment-service-for-construction-industry-500x500.webp"
                         alt=""
                         className="w-full h-full object-cover group-hover:scale-[1.1] transition-all duration-700" />
 
                     {/*  text  */}
                     <div
                         className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
-                        <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">EPC Recruitment Services</h1>
+                        <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Contraction recruitment services</h1>
                         <button
                             className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
                             Details
@@ -212,14 +165,14 @@ const Candidates = () => {
 
                     {/*  image  */}
                     <img
-                        src="Healthcare & Nursing Recruitment Services.jpg"
+                        src="farmer_training.jpg"
                         alt=""
                         className="w-full h-full object-cover group-hover:scale-[1.1] transition-all duration-700" />
 
                     {/*  text  */}
                     <div
                         className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
-                        <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Healthcare & Nursing Recruitment Services</h1>
+                        <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Agreculture recruitment services</h1>
                         <button
                             className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
                             Details
@@ -230,7 +183,6 @@ const Candidates = () => {
                     <div
                         className="w-full opacity-0 z-[-1] group-hover:opacity-100 group-hover:z-10 transition-all duration-500 bg-gradient-to-b from-[rgb(0,0,0,0.001)] to-[rgb(0,0,0,0.5)] h-[100%] absolute bottom-0 left-0 right-0"></div>
                 </div>
-
             </div>
             <section className="w-full lg:p-10 p-6">
 
