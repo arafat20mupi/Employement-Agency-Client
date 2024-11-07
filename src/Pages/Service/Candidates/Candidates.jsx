@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Candidates = () => {
     return (
         <div className="px-6">
@@ -35,10 +37,10 @@ const Candidates = () => {
                     <div
                         className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
                         <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">steel recruitment services</h1>
-                        <button
+                        <Link to={'/candidateDetails'}
                             className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
                             Details
-                        </button>
+                        </Link>
                     </div>
 
                     {/*  bottom shadow  */}
@@ -58,10 +60,10 @@ const Candidates = () => {
                     <div
                         className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
                         <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Hotel & Resturent Recruitment Consultancy Services</h1>
-                        <button
+                        <Link to={'/candidateDetails'}
                             className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
                             Details
-                        </button>
+                        </Link>
                     </div>
 
                     {/*  bottom shadow  */}
@@ -81,10 +83,10 @@ const Candidates = () => {
                     <div
                         className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
                         <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Mining Recruitment Services</h1>
-                        <button
+                        <Link to={'/candidateDetails'}
                             className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
                             Details
-                        </button>
+                        </Link>
                     </div>
 
                     {/*  bottom shadow  */}
@@ -104,10 +106,10 @@ const Candidates = () => {
                     <div
                         className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
                         <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Security Guard Recruitment Services</h1>
-                        <button
+                        <Link to={'/candidateDetails'}
                             className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
                             Details
-                        </button>
+                        </Link>
                     </div>
 
                     {/*  bottom shadow  */}
@@ -127,10 +129,10 @@ const Candidates = () => {
                     <div
                         className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
                         <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Hospitality Recruitment Services</h1>
-                        <button
+                        <Link to={'/candidateDetails'}
                             className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
                             Details
-                        </button>
+                        </Link>
                     </div>
 
                     {/*  bottom shadow  */}
@@ -150,10 +152,10 @@ const Candidates = () => {
                     <div
                         className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
                         <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Contraction recruitment services</h1>
-                        <button
+                        <Link to={'/candidateDetails'}
                             className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
                             Details
-                        </button>
+                        </Link>
                     </div>
 
                     {/*  bottom shadow  */}
@@ -173,10 +175,10 @@ const Candidates = () => {
                     <div
                         className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
                         <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Agreculture recruitment services</h1>
-                        <button
+                        <Link to={'/candidateDetails'}
                             className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
                             Details
-                        </button>
+                        </Link>
                     </div>
 
                     {/*  bottom shadow  */}
@@ -289,7 +291,7 @@ const Candidates = () => {
                     </div>
 
 
-                    <button type="submit" className={`py-3 px-6 text-xl border bg-blue-500 hover:bg-pink-500  rounded-md outline-none mt-[10px]`}>Submit</button>
+                    <Link to={'/candidateDetails'} type="submit" className={`py-3 px-6 text-xl border bg-blue-500 hover:bg-pink-500  rounded-md outline-none mt-[10px]`}>Submit</Link>
 
                 </form>
             </section>

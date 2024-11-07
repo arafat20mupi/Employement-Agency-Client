@@ -9,6 +9,8 @@ import Candidates from "../Pages/Service/Candidates/Candidates";
 import About from "../Pages/About/About";
 import Login from "../Pages/Registration/Login";
 import Register from "../Pages/Registration/Register";
+import ClientDetails from "../Pages/Service/Clients/ClientDetails";
+import CandidatesDetails from "../Pages/Service/Candidates/CandidatesDetails";
 
 const router = createBrowserRouter([
   {
@@ -23,7 +25,9 @@ const router = createBrowserRouter([
       { path: "/jobs", element: <Jobs /> },
       { path: "/about", element: <About /> },
       { path: '/login', element: <Login /> },
-      { path: '/register', element: <Register/>}
+      { path: '/register', element: <Register/>},
+      { path: '/clientDetails', element: <ClientDetails/>},
+      { path: '/candidateDetails', element: <CandidatesDetails/>},
     ]
   },
 ]);

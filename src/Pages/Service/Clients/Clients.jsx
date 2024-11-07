@@ -29,35 +29,35 @@ const Clients = () => {
                         <img className='w-full shadow-lg h-72  rounded-lg' src="Compliance Services.webp" alt="" />
                         <div className='p-3 '>
                             <h2 className='text-xl font-medium my-6 text-blue-400'>Skillful Worker</h2>
-                            <Link className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
+                            <Link to={'/clientDetails'} className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
                         </div>
                     </div>
                     <div className='shadow-md p-3'>
                         <img className='w-full shadow-lg h-72  rounded-lg' src="Talent-Acquisition-Job-Description.jpeg" alt="" />
                         <div className='p-3 '>
                             <h2 className='text-xl font-medium my-6 text-blue-400'>Talent Acquisition</h2>
-                            <Link className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
+                            <Link to={'/clientDetails'} className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
                         </div>
                     </div>
                     <div className='shadow-md p-3'>
                         <img className='w-full shadow-lg h-72  rounded-lg' src="BackgroundChecks.webp" alt="" />
                         <div className='p-3 '>
                             <h2 className='text-xl font-medium my-6 text-blue-400'>Background Checks</h2>
-                            <Link className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
+                            <Link to={'/clientDetails'} className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
                         </div>
                     </div>
                     <div className='shadow-md p-3'>
                         <img className='w-full shadow-lg h-72  rounded-lg' src="PermanentRecruitment.jpg" alt="" />
                         <div className='p-3 '>
                             <h2 className='text-xl font-medium my-6 text-blue-400'>Permanent Recruitment</h2>
-                            <Link className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
+                            <Link to={'/clientDetails'} className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
                         </div>
                     </div>
                     <div className='shadow-md p-3'>
                         <img className='w-full shadow-lg h-72  rounded-lg' src="news-5pack-greenjobs.jpeg" alt="" />
                         <div className='p-3 '>
                             <h2 className='text-xl font-medium my-6 text-blue-400'>Green Recruitment and Consultancy</h2>
-                            <Link className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
+                            <Link to={'/clientDetails'}  className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
                         </div>
                     </div>
                    
@@ -65,7 +65,7 @@ const Clients = () => {
                         <img className='w-full shadow-lg h-72  rounded-lg' src="Performance-Management.jpg" alt="" />
                         <div className='p-3 '>
                             <h2 className='text-xl font-medium my-6 text-blue-400'>Performance Management</h2>
-                            <Link className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
+                            <Link to={'/clientDetails'} className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
                         </div>
                     </div>
                    
