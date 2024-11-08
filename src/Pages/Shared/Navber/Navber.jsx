@@ -4,7 +4,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar bg-pink-50  md:px-10">
+        <div className="navbar bg-pink-50 fixed z-50 md:px-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -36,6 +36,7 @@ const Navbar = () => {
                         </li>
                         <li><Link to={'/jobs'}>Jobs</Link></li>
                         <li><Link to={'/about'}>About</Link></li>
+                        <li><Link to={'/testimonial'}>Testimonial</Link></li>  
                     </ul>
                 </div>
                 <Link to={'/'} className="w-16 h-16">
@@ -58,7 +59,7 @@ const Navbar = () => {
                         </details>
                     </li>
                     <li><Link to={'/jobs'}>Jobs</Link></li>
-                    <li><Link to={'/about'}>About</Link></li>
+                    <li><Link to={'/about'}>About</Link></li>                        <li><Link to={'/testimonial'}>Testimonial</Link></li>  
                 </ul>
             </div>
             <div className="navbar-end">

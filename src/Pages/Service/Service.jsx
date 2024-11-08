@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Service = () => {
     return (
         <div>
-            <div className="flex gap-2 px-6 bg-gray-50 min-h-screen">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 px-6 bg-gray-50 min-h-screen">
                 <div
                     className="hero "
                     style={{

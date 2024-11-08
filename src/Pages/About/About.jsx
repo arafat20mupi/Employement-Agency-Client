@@ -16,9 +16,9 @@ const About = () => {
             <section className="bg-white shadow-sm p-6 rounded-lg mt-6">
                 <h1 className="text-3xl font-bold underline text-blue-500 mb-4">Our Branches</h1>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    <BranchInfo name="Head Office" address="MODINA MARKET, SYLHET" phone="+8801334543645" email="EuroBanglaEmployment@gmail.com" />
-                    <BranchInfo name="UAE Branch Office" address="ROLLA MALL, SHARJAH, UAE" phone="+971 55 936 2915" email="UAE@euro-bangla.com" />
-                    <BranchInfo name="Croatia Branch Office" address="ZAGREB, CROATIA" phone="+385 95 510 8167" email="Croatia@euro-bangla.com" />
+                    <BranchInfo name="Head Office" address="MODINA MARKET, SYLHET" phone="+8801334543645" email="eurobanglaemployment@gmail.com" />
+                    <BranchInfo name="UAE Branch Office" address="ROLLA MALL, SHARJAH, UAE" phone="+971 55 936 2915" email="eurobanglaemployment@gmail.com" />
+                    <BranchInfo name="Croatia Branch Office" address="ZAGREB, CROATIA" phone="+385 95 510 8167" email="eurobanglaemployment@gmail.com" />
                 </div>
             </section>
 

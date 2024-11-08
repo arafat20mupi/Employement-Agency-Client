@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div
-      className="bg-gray-100 "
+      className="bg-gray-50 "
     >
       {/* header */}
       <header className="flex lg:flex-row flex-col gap-[50px] lg:gap-0 items-center ">

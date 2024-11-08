@@ -11,6 +11,7 @@ import Login from "../Pages/Registration/Login";
 import Register from "../Pages/Registration/Register";
 import ClientDetails from "../Pages/Service/Clients/ClientDetails";
 import CandidatesDetails from "../Pages/Service/Candidates/CandidatesDetails";
+import Testimonial from "../Pages/Testimonial/Testimonial";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,7 @@ const router = createBrowserRouter([
       { path: '/register', element: <Register/>},
       { path: '/clientDetails', element: <ClientDetails/>},
       { path: '/candidateDetails', element: <CandidatesDetails/>},
+      { path: '/testimonial', element: <Testimonial/>},
     ]
   },
 ]);

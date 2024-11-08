@@ -151,7 +151,7 @@ const Candidates = () => {
                     {/*  text  */}
                     <div
                         className="absolute top-[50%] transform group-hover:translate-y-[-50%] transition-all duration-500 w-full h-full left-0 z-20 right-0 flex items-center justify-center flex-col">
-                        <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Contraction recruitment services</h1>
+                        <h1 className="text-[1.5rem] font-bold text-white text-center capitalize">Construction recruitment services</h1>
                         <Link to={'/candidateDetails'}
                             className="bg-blue-500 hover:bg-pink-500 z-[1-] opacity-0 group-hover:z-20 group-hover:opacity-100 px-3 py-2 mt-3  transition-all duration-1000 text-white rounded-md text-[0.9rem]">View
                             Details
