@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Marquee from "react-fast-marquee";
 
 // icons
 import { FaPlus } from "react-icons/fa6";
@@ -53,7 +54,9 @@ const JoiningProcess = () => {
     return (
         <div className="flex gap-1 bg-gray-50 p-10 flex-col w-full">
             <div className="text-center my-10">
-                <h1 className="text-4xl font-bold underline underline-offset-auto text-blue-500">THE RECRUITMENT PROCESS</h1>
+                <Marquee speed={100}  md:speed={200}>
+                    <h1 className="text-xl md:text-4xl font-bold underline underline-offset-auto text-blue-500">THE RECRUITMENT PROCESS</h1>
+                </Marquee>
                 <p className="mt-6 text-black text-xl">
                     For our staffing agency in Croatia, we implement a well-defined and efficient recruitment process to match skilled candidates with the diverse needs of client companies. Here’s a comprehensive breakdown of the key steps in the recruitment process:
                 </p>
@@ -75,8 +78,8 @@ const JoiningProcess = () => {
                     </div>
                     <div
                         className={`grid transition-all duration-300 overflow-hidden ease-in-out ${isAccordingOpen === index
-                                ? "grid-rows-[1fr] opacity-100 mt-4"
-                                : "grid-rows-[0fr] opacity-0"
+                            ? "grid-rows-[1fr] opacity-100 mt-4"
+                            : "grid-rows-[0fr] opacity-0"
                             }`}>
                         <p className="text-[#424242] text-[0.9rem] overflow-hidden">
                             {according.description}

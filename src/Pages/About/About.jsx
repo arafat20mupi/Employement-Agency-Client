@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import Marquee from "react-fast-marquee";
 import Contact from "../Contact/Contact";
 
 const About = () => {
@@ -14,8 +15,10 @@ const About = () => {
 
             {/* Branches Section */}
             <section className="bg-white shadow-sm p-6 rounded-lg mt-6">
+                <Marquee speed={100}>
                 <h1 className="text-3xl font-bold underline text-blue-500 mb-4">Our Branches</h1>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+                </Marquee>
+                <div data-aos="fade-up" data-aos-duration="1000" className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
                     <BranchInfo name="Head Office" address="MODINA MARKET, SYLHET" phone="+8801334543645" email="eurobanglaemployment@gmail.com" />
                     <BranchInfo name="UAE Branch Office" address="ROLLA MALL, SHARJAH, UAE" phone="+971 55 936 2915" email="eurobanglaemployment@gmail.com" />
                     <BranchInfo name="Croatia Branch Office" address="ZAGREB, CROATIA" phone="+385 95 510 8167" email="eurobanglaemployment@gmail.com" />
@@ -25,15 +28,15 @@ const About = () => {
             {/* Vision & Mission */}
             <section className="p-6">
                 <h1 className="text-3xl font-bold underline text-blue-500 mb-4">How can we help ease your recruitment process?</h1>
-                <div className="grid grid-cols-1 gap-3 p-3 md:grid-cols-2 bg-white shadow-sm rounded-lg">
+                <div data-aos="fade-up" data-aos-duration="1000" className="grid grid-cols-1 gap-3 p-3 md:grid-cols-2 bg-white shadow-sm rounded-lg">
                     <InfoCard title="Our Vision" description="To be the preferred recruitment firm in South East Asia, helping you grow rapidly with minimal risks and maximum results." />
                     <InfoCard title="Our Mission" description="To successfully connect businesses and job seekers through measurable and efficient recruitment services tailored to industry needs." />
                 </div>
             </section>
 
             {/* Recruitment Header */}
-            <header className="flex bg-pink-50 flex-col lg:flex-row items-center gap-6 p-6 rounded-lg mt-6 shadow-sm">
-                <div className="w-full lg:w-1/2">
+            <header className="flex bg-gray-50 flex-col lg:flex-row items-center gap-6 p-6 rounded-lg mt-6 shadow-sm">
+                <div  className="w-full lg:w-1/2">
                     <h1 className="text-3xl lg:text-4xl font-semibold leading-snug">World-Class Recruitment is Humanly Possible</h1>
                     <p className="text-lg font-medium mt-3">Hiring right is crucial for business success. We use best-practice methodologies to find the right people efficiently.</p>
                 </div>
@@ -45,7 +48,7 @@ const About = () => {
             {/* Why Choose Us */}
             <section className="p-6 mt-6">
                 <h1 className="text-3xl font-bold underline text-blue-500 mb-4">Why Choose Us?</h1>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div data-aos="fade-up" data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <InfoCard title="Transparent Services" description="We provide candid information about the company and job roles to help you make informed decisions." />
                     <InfoCard title="Hassle-free Application" description="Our streamlined application process allows you to apply to multiple jobs with just a few clicks." />
                     <InfoCard title="Network of Employers" description="We connect you with both active and passive employers, opening up more job opportunities." />

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import CanditateContact from "./CanditateContact/CanditateContact";
 
 const Candidates = () => {
     return (
@@ -186,115 +187,7 @@ const Candidates = () => {
                         className="w-full opacity-0 z-[-1] group-hover:opacity-100 group-hover:z-10 transition-all duration-500 bg-gradient-to-b from-[rgb(0,0,0,0.001)] to-[rgb(0,0,0,0.5)] h-[100%] absolute bottom-0 left-0 right-0"></div>
                 </div>
             </div>
-            <section className="w-full lg:p-10 p-6">
-
-                {/* title */}
-                <div className="w-full flex flex-col ">
-                    <h1 className="text-[2rem] font-bold underline text-blue-500 leading-[36px]">Job Requisition Form</h1>
-                </div>
-
-                {/* form area */}
-                <form className="w-full mt-[50px]">
-                    <div className="flex flex-col sm:flex-row items-center gap-[20px]">
-                        <div className="flex flex-col gap-[5px] w-full sm:w-[50%]">
-                            <label className="relative">
-                                <input type="text"
-                                    placeholder="Type Your Name"
-                                    className="peer  border rounded-md outline-none px-4 py-3 w-full border-[#3B9DF8] transition-colors duration-300"
-                                />
-                                <span
-                                    className="  absolute   -top-3  left-2  text-[#3B9DF8] bg-white transition-all duration-300 ">
-                                    Your name
-                                </span>
-                            </label>
-                        </div>
-
-                        <div className="flex flex-col gap-[5px] w-full sm:w-[50%]">
-                            <label className="relative">
-                                <input
-                                    type="text"
-                                    placeholder="Type Your Name "
-                                    className="peer  border rounded-md outline-none px-4 py-3 w-full border-[#3B9DF8] transition-colors duration-300"
-                                />
-                                <span
-                                    className="  absolute   -top-3  left-2  text-[#3B9DF8] bg-white transition-all duration-300 ">
-                                    Your Name
-                                </span>
-                            </label>
-                        </div>
-                    </div>
-                    <div className="flex  mt-[20px] flex-col sm:flex-row items-center gap-[20px]">
-                        <div className="flex flex-col gap-[5px] w-full sm:w-[50%]">
-                            <label className="relative">
-                                <input type="text"
-                                    placeholder="Type Your Job Interest"
-                                    className="peer  border rounded-md outline-none px-4 py-3 w-full border-[#3B9DF8] transition-colors duration-300"
-                                />
-                                <span
-                                    className="  absolute   -top-3  left-2  text-[#3B9DF8] bg-white transition-all duration-300 ">
-                                    Your Role
-                                </span>
-                            </label>
-                        </div>
-
-                        <div className="flex  flex-col gap-[5px] w-full sm:w-[50%]">
-                            <label className="relative">
-                                <input type="email"
-                                    placeholder="Type Your Email Address"
-                                    className="peer  border rounded-md outline-none px-4 py-3 w-full border-[#3B9DF8] transition-colors duration-300"
-                                />
-                                <span
-                                    className="  absolute   -top-3  left-2  text-[#3B9DF8] bg-white transition-all duration-300 ">
-                                    Your Email
-                                </span>
-                            </label>
-                        </div>
-                    </div>
-                    <div className="flex  mt-[20px] flex-col sm:flex-row items-center gap-[20px]">
-                        <div className="flex flex-col gap-[5px] w-full sm:w-[50%]">
-                            <label className="relative">
-                                <input type="text"
-                                    placeholder="Type Your Phone Number"
-                                    className="peer  border rounded-md outline-none px-4 py-3 w-full border-[#3B9DF8] transition-colors duration-300"
-                                />
-                                <span
-                                    className="  absolute   -top-3  left-2  text-[#3B9DF8] bg-white transition-all duration-300 ">
-                                    Phone Number
-                                </span>
-                            </label>
-                        </div>
-
-                        <div className="flex  flex-col gap-[5px] w-full sm:w-[50%]">
-                            <label className="relative">
-                                <input type=""
-                                    placeholder="Your Expected Sellary Range"
-                                    className="peer  border rounded-md outline-none px-4 py-3 w-full border-[#3B9DF8] transition-colors duration-300"
-                                />
-                                <span
-                                    className="  absolute   -top-3  left-2  text-[#3B9DF8] bg-white transition-all duration-300 ">
-                                    Sellary Range
-                                </span>
-                            </label>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-[5px] w-full mt-[20px]">
-                        <label className="relative w-full">
-                            <textarea
-                                placeholder="Type Your Message "
-                                className="peer min-h-[200px]  border rounded-md outline-none px-4 py-3 w-full border-[#3B9DF8] transition-colors duration-300"
-                            ></textarea>
-                            <span
-                                className=" absolute   -top-3  left-2  text-[#3B9DF8] bg-white transition-all duration-300 ">
-                                Your Message
-                            </span>
-                        </label>
-                    </div>
-
-
-                    <Link to={'/candidateDetails'} type="submit" className={`py-3 px-6 text-xl border bg-blue-500 hover:bg-pink-500  rounded-md outline-none mt-[10px]`}>Submit</Link>
-
-                </form>
-            </section>
+           <CanditateContact></CanditateContact>
         </div>
 
     );

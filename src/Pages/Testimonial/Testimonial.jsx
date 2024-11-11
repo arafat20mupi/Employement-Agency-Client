@@ -44,7 +44,9 @@ const Testimonial = () => {
 
             <div className="grid gap-3 mt-3 py-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {(showJobSeeker ? forJobSeaker : forClient).map((testimonial, index) => (
-                    <div key={index} className="relative bg-white rounded-xl shadow-lg p-6 min-h-52">
+                    <div 
+                    data-aos="fade-up" data-aos-duration="1000"
+                    key={index} className="relative bg-white rounded-xl shadow-lg p-6 min-h-52">
                         {/* Header with Avatar/Photo */}
                         <div className="flex items-center mb-4">
                             <img

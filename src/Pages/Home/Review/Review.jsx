@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import Marquee from 'react-fast-marquee';
 
 const Review = () => {
     const reviews = [
@@ -18,9 +19,12 @@ const Review = () => {
 
 
     return (
-        <div className="bg-pink-50 py-5">
+        <div className="bg-gray-50 py-5">
             {/* Title */}
-            <h2 className="text-center text-4xl font-bold mb-8 text-black">Customer Review</h2>
+            <Marquee speed={100} md:speed={200}>
+
+                <h2 className="text-center text-4xl font-bold mb-8 text-black">Customer Review</h2>
+            </Marquee>
 
             {/* Swiper Slider */}
             <Swiper

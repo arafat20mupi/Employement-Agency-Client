@@ -1,9 +1,12 @@
 import { GoArrowRight } from "react-icons/go";
 import { Link } from "react-router-dom";
+import Marquee from "react-fast-marquee";
 const Text = () => {
     return (
         <div className="text-start p-6 bg-gray-50 space-y-6">
-            <h1 className="text-3xl font-bold ">Find Jobs in  Europe ,USA , UK, Middle East And Asia.</h1>
+            <Marquee speed={100}>
+                <h1 className="text-2xl md:text-3xl font-bold ">Find Jobs in  Europe ,USA , UK, Middle East And Asia.</h1>
+            </Marquee>
             <p className="text-2xl font-bold">
                 <span className="text-blue-500">
                     Euro-Bangla

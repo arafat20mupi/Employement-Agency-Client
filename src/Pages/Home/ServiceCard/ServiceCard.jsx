@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const ServiceCard = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2  gap-2 p-6 bg-pink-50 min-h-screen">
-            <div
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-2 p-6 bg-gray-50 min-h-screen">
+            <div data-aos="fade-up" data-aos-duration="1000"
                 className="hero "
                 style={{
                     backgroundImage: "url(jobSeeker.jpg)",
@@ -26,7 +26,8 @@ const ServiceCard = () => {
                 </div>
             </div>
 
-            <div
+            <div 
+            data-aos="fade-up" data-aos-duration="1000"
                 className="hero "
                 style={{
                     backgroundImage: "url(employer.jpg)",

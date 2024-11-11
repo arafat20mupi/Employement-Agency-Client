@@ -16,13 +16,13 @@ const Clients = () => {
                         <h1 className="text-5xl font-bold underline  text-blue-500">Employers</h1>
                         <h1 className="text-xl font-bold">Looking for recruiters who speak your language?</h1>
                         <p className="py-6">
-                            <span className="font-bold">Euro-Bangla Employment Company</span>we understand the energy and expenses that accompany hiring suitable candidates to match the needs of your company. You may even find yourself facing challenges where hiring processes take too long or hiring teams struggle to reach a consensus, resulting in your best candidates finding other opportunities. This is why we offer our services to help guide you through every step of the recruitment process in order to help ensure you make the best possible decision for your organization. 
+                            <span className="font-bold">Euro-Bangla Employment Company</span>we understand the energy and expenses that accompany hiring suitable candidates to match the needs of your company. You may even find yourself facing challenges where hiring processes take too long or hiring teams struggle to reach a consensus, resulting in your best candidates finding other opportunities. This is why we offer our services to help guide you through every step of the recruitment process in order to help ensure you make the best possible decision for your organization.
                         </p>
                     </div>
                 </div>
             </div>
             {/* Services We Offer */}
-            <div className=" bg-pink-50  p-6" >
+            <div className=" bg-gray-50  p-6" >
                 <h1 className=" text-4xl text-blue-500 font-semibold ml-2 ">Services We Offer</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 gap-4">
                     <div className='shadow-md p-3'>
@@ -57,10 +57,10 @@ const Clients = () => {
                         <img className='w-full shadow-lg h-72  rounded-lg' src="news-5pack-greenjobs.jpeg" alt="" />
                         <div className='p-3 '>
                             <h2 className='text-xl font-medium my-6 text-blue-400'>Green Recruitment and Consultancy</h2>
-                            <Link to={'/clientDetails'}  className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
+                            <Link to={'/clientDetails'} className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
                         </div>
                     </div>
-                   
+
                     <div className='shadow-md p-3'>
                         <img className='w-full shadow-lg h-72  rounded-lg' src="Performance-Management.jpg" alt="" />
                         <div className='p-3 '>
@@ -68,7 +68,7 @@ const Clients = () => {
                             <Link to={'/clientDetails'} className='text-lg rounded-md px-3 py-2  bg-blue-500 hover:bg-pink-500 text-white'>See More</Link>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
             {/* why deal */}
