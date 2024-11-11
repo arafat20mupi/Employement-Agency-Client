@@ -25,7 +25,8 @@ const Candidates = () => {
                 Our Services
             </h2>
             <div className="grid grid-cols-1 mt-4 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div
+                <div 
+                data-aos="fade-up" data-aos-duration="1000"
                     className="w-full  h-[400px] relative overflow-hidden group cursor-pointer rounded-md">
 
                     {/*  image  */}
@@ -48,7 +49,7 @@ const Candidates = () => {
                     <div
                         className="w-full opacity-0 z-[-1] group-hover:opacity-100 group-hover:z-10 transition-all duration-500 bg-gradient-to-b from-[rgb(0,0,0,0.001)] to-[rgb(0,0,0,0.5)] h-[100%] absolute bottom-0 left-0 right-0"></div>
                 </div>
-                <div
+                <div data-aos="fade-up" data-aos-duration="1000"
                     className="w-full  h-[400px] relative overflow-hidden group cursor-pointer rounded-md">
 
                     {/*  image  */}
@@ -71,7 +72,7 @@ const Candidates = () => {
                     <div
                         className="w-full opacity-0 z-[-1] group-hover:opacity-100 group-hover:z-10 transition-all duration-500 bg-gradient-to-b from-[rgb(0,0,0,0.001)] to-[rgb(0,0,0,0.5)] h-[100%] absolute bottom-0 left-0 right-0"></div>
                 </div>
-                <div
+                <div data-aos="fade-up" data-aos-duration="1000"
                     className="w-full  h-[400px] relative overflow-hidden group cursor-pointer rounded-md">
 
                     {/*  image  */}
@@ -94,7 +95,7 @@ const Candidates = () => {
                     <div
                         className="w-full opacity-0 z-[-1] group-hover:opacity-100 group-hover:z-10 transition-all duration-500 bg-gradient-to-b from-[rgb(0,0,0,0.001)] to-[rgb(0,0,0,0.5)] h-[100%] absolute bottom-0 left-0 right-0"></div>
                 </div>
-                <div
+                <div data-aos="fade-up" data-aos-duration="1000"
                     className="w-full  h-[400px] relative overflow-hidden group cursor-pointer rounded-md">
 
                     {/*  image  */}
@@ -117,7 +118,7 @@ const Candidates = () => {
                     <div
                         className="w-full opacity-0 z-[-1] group-hover:opacity-100 group-hover:z-10 transition-all duration-500 bg-gradient-to-b from-[rgb(0,0,0,0.001)] to-[rgb(0,0,0,0.5)] h-[100%] absolute bottom-0 left-0 right-0"></div>
                 </div>
-                <div
+                <div data-aos="fade-up" data-aos-duration="1000"
                     className="w-full  h-[400px] relative overflow-hidden group cursor-pointer rounded-md">
 
                     {/*  image  */}
@@ -140,7 +141,7 @@ const Candidates = () => {
                     <div
                         className="w-full opacity-0 z-[-1] group-hover:opacity-100 group-hover:z-10 transition-all duration-500 bg-gradient-to-b from-[rgb(0,0,0,0.001)] to-[rgb(0,0,0,0.5)] h-[100%] absolute bottom-0 left-0 right-0"></div>
                 </div>
-                <div
+                <div data-aos="fade-up" data-aos-duration="1000"
                     className="w-full  h-[400px] relative overflow-hidden group cursor-pointer rounded-md">
 
                     {/*  image  */}
@@ -163,7 +164,7 @@ const Candidates = () => {
                     <div
                         className="w-full opacity-0 z-[-1] group-hover:opacity-100 group-hover:z-10 transition-all duration-500 bg-gradient-to-b from-[rgb(0,0,0,0.001)] to-[rgb(0,0,0,0.5)] h-[100%] absolute bottom-0 left-0 right-0"></div>
                 </div>
-                <div
+                <div data-aos="fade-up" data-aos-duration="1000"
                     className="w-full  h-[400px] relative overflow-hidden group cursor-pointer rounded-md">
 
                     {/*  image  */}
